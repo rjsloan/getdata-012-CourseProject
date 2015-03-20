@@ -25,7 +25,7 @@ train/X_train.txt - Training set
 train/y_train.txt - Training labels
 
 activity_labels.txt - identifies the 6 activites (see description about column 1 below)
-features.txt - List of all features (see description about columns 3-88 below)
+features.txt - List of all features (see description about columns 3-88 below) 
 
 
 THE DATASET
