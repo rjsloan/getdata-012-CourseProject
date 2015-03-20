@@ -1,6 +1,8 @@
 # getdata-012-CourseProject
 CourseProject for getdata-012
 
+See codebook.md for description of dataset, files, variables, etc..
+
 The script is written to align with the 5 steps of the assignment.
 
    1. Merges the training and the test sets to create one data set.
