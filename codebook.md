@@ -1,7 +1,5 @@
 Codebook for Course Project
-
 rjsloan/getdata-012-CourseProject/codebook.md
-
 3/20/2015
 
 
