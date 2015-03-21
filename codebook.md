@@ -63,7 +63,7 @@ The units of measurement for the variables in tidydata.txt are: acceleration, gy
 <H5>THE TRANSFORMATIONS</H5>
 <ul>
 <li>
-Combining 6 files (test and training files) into one large combined dataset
+Combining 6 files (test and training files) into one large dataset
 <li>
 Reduce this dataset to arrive at tidydata.txt:
 <ul>
