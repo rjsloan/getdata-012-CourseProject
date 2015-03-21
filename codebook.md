@@ -58,7 +58,22 @@ Column 3-88: These variables are:
 "tbodyaccelerometermeanx" "tbodyaccelerometermeany" "tbodyaccelerometermeanz" "tbodyaccelerometerstdx" "tbodyaccelerometerstdy" "tbodyaccelerometerstdz" "tgravityaccelerometermeanx" "tgravityaccelerometermeany" "tgravityaccelerometermeanz" "tgravityaccelerometerstdx" "tgravityaccelerometerstdy" "tgravityaccelerometerstdz" "tbodyaccelerometerjerkmeanx" "tbodyaccelerometerjerkmeany" "tbodyaccelerometerjerkmeanz" "tbodyaccelerometerjerkstdx" "tbodyaccelerometerjerkstdy" "tbodyaccelerometerjerkstdz" "tbodygyromeanx" "tbodygyromeany" "tbodygyromeanz" "tbodygyrostdx" "tbodygyrostdy" "tbodygyrostdz" "tbodygyrojerkmeanx" "tbodygyrojerkmeany" "tbodygyrojerkmeanz" "tbodygyrojerkstdx" "tbodygyrojerkstdy" "tbodygyrojerkstdz" "tbodyaccelerometermagnitudemean" "tbodyaccelerometermagnitudestd" "tgravityaccelerometermagnitudemean" "tgravityaccelerometermagnitudestd" "tbodyaccelerometerjerkmagnitudemean" "tbodyaccelerometerjerkmagnitudestd" "tbodygyromagnitudemean" "tbodygyromagnitudestd" "tbodygyrojerkmagnitudemean" "tbodygyrojerkmagnitudestd" "fbodyaccelerometermeanx" "fbodyaccelerometermeany" "fbodyaccelerometermeanz" "fbodyaccelerometerstdx" "fbodyaccelerometerstdy" "fbodyaccelerometerstdz" "fbodyaccelerometermeanfreqx" "fbodyaccelerometermeanfreqy" "fbodyaccelerometermeanfreqz" "fbodyaccelerometerjerkmeanx" "fbodyaccelerometerjerkmeany" "fbodyaccelerometerjerkmeanz" "fbodyaccelerometerjerkstdx" "fbodyaccelerometerjerkstdy" "fbodyaccelerometerjerkstdz" "fbodyaccelerometerjerkmeanfreqx" "fbodyaccelerometerjerkmeanfreqy" "fbodyaccelerometerjerkmeanfreqz" "fbodygyromeanx" "fbodygyromeany" "fbodygyromeanz" "fbodygyrostdx" "fbodygyrostdy" "fbodygyrostdz" "fbodygyromeanfreqx" "fbodygyromeanfreqy" "fbodygyromeanfreqz" "fbodyaccelerometermagnitudemean" "fbodyaccelerometermagnitudestd" "fbodyaccelerometermagnitudemeanfreq" "fbodybodyaccelerometerjerkmagnitudemean" "fbodybodyaccelerometerjerkmagnitudestd" "fbodybodyaccelerometerjerkmagnitudemeanfreq" "fbodybodygyromagnitudemean" "fbodybodygyromagnitudestd" "fbodybodygyromagnitudemeanfreq" "fbodybodygyrojerkmagnitudemean" "fbodybodygyrojerkmagnitudestd" "fbodybodygyrojerkmagnitudemeanfreq" "angletbodyaccelerometermean,gravity" "angletbodyaccelerometerjerkmean,gravitymean" "angletbodygyromean,gravitymean" "angletbodygyrojerkmean,gravitymean" "anglex,gravitymean" "angley,gravitymean" "anglez,gravitymean"
 </ul>
 
-sensor signals (accelerometer and gyroscope), time and freq components, etc...
+<H5>THE TRANSFORMATIONS</H5>
+<ul>
+<li>
+Combining 6 files (test and training files) into one large combined dataset
+<li>
+Reduce this dataset:
+<ul>
+<li>
+Extract columns that are only associated with mean and std measurements
+<li>
+Clean up these column names to make them more descriptive
+<li>
+Replace numeric activity names with descriptive ones, e.g. WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+<li>
+Take the average of each variable for each activity and each subject.
+<ul>
 
-THE TRANSFORMATIONS (see run_analysis.R for details of each step)
+(see run_analysis.R for more details of the transformation)
 
