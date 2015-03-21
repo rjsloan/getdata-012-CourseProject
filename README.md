@@ -31,7 +31,7 @@ Substitute all original column names in allData with new colNames
 <ul>
 <li>
 Assemble a smaller data set based on mean and std column names
-<ul>
+</ul>
 
 <B>Uses descriptive activity names</B>
 <ul>
