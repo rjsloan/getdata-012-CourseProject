@@ -37,11 +37,15 @@ Assemble a smaller data set based on mean and std column names
 <ul>
 <li>
 Replace labels by activity names in 'smallData' data set
-<ul>
+</ul>
 
-Created a second, independent tidy data set called tidy-data.txt
-  # create tidy data set with the average of each variable for each activity / subject.
-  # Use write.table to output a txt file of tidy-data.txt
+<B> Created a second, independent tidy data set called tidy-data.txt </B>
+<ul>
+<li>
+create tidy data set with the average of each variable for each activity / subject.
+<li>
+Use write.table to output a txt file of tidy-data.txt
+</ul>
 
 *** See codebook.md for description of dataset, files, variables, etc..
 
