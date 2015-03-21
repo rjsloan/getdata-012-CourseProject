@@ -1,4 +1,4 @@
-README.md
+<B>README.md</B>
 
 What the analysis file does (run_analysis.R) - see comments in actual script for further details
 
@@ -47,6 +47,8 @@ create tidy data set with the average of each variable for each activity / subje
 Use write.table to output a txt file of tidy-data.txt
 </ul>
 
+<br>
+<br>
 <B>*** See codebook.md for description of dataset, files, variables, etc..</B>
 <br>
 <br>
