@@ -37,7 +37,7 @@ Rows: 10299
 Columns: 563
 </ul>
 <li>
-tidydata.txt  - smaller dataframe based on the average of each variable for each activity and each subject.
+tidy-data.txt  - smaller dataframe based on the average of each variable for each activity and each subject.
 <ul>
 <li>
 Rows: 180
@@ -59,13 +59,13 @@ Column 3-88: These variables are:
 </ul>
 
 <H5>THE UNITS</H5>
-The units of measurement for the variables in tidydata.txt are: acceleration, gyration, frequency, time, magnitude, gravity, angle, etc...
+The units of measurement for the variables in tidy-data.txt are: acceleration, gyration, frequency, time, magnitude, gravity, angle, etc...
 <H5>THE TRANSFORMATIONS</H5>
 <ul>
 <li>
 Combining 6 files (test and training files) into one large dataset
 <li>
-Reduce this dataset to arrive at tidydata.txt:
+Reduce this dataset to arrive at tidy-data.txt:
 <ul>
 <li>
 Extract columns that are only associated with mean and std measurements
@@ -76,7 +76,7 @@ Replace numeric activity names with descriptive ones, e.g. WALKING, WALKING_UPST
 <li>
 Take the average of each variable for each activity and each subject.
 <li>
-Output results to tidydata.txt
+Output results to tidy-data.txt
 </ul>
 </ul>
 
