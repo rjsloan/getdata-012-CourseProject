@@ -44,7 +44,7 @@ Rows: 180
 <li>
 Columns: 88
 </ul>
-dataset contains 180 rows / 88 cols: 6 activities for each of the 30 subjects.
+180 rows = 6 activities for each of the 30 subjects.
 </ul>
 <B>THE VARIABLES</B>
 <ul>
