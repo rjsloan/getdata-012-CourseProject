@@ -46,16 +46,19 @@ Columns: 88
 </ul>
 180 rows = 6 activities for each of the 30 subjects.
 </ul>
-<B>THE VARIABLES</B>
+<H5>THE VARIABLES</H5>
 <ul>
 <li>
-Column 1: the activity information (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+Column 1: activity - the activity information (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 <li>
-Column 2: the number of the particular subject (person wearing the device)
+Column 2: subject - the number of the particular subject (person wearing the device)
 <li>
-Column 3-88: the average calculated value for each variable. These variables include:
-sensor signals (accelerometer and gyroscope), time and freq components, etc...
+Column 3-88: These variables are:
+<br>
+"tbodyaccelerometermeanx" "tbodyaccelerometermeany" "tbodyaccelerometermeanz" "tbodyaccelerometerstdx" "tbodyaccelerometerstdy" "tbodyaccelerometerstdz" "tgravityaccelerometermeanx" "tgravityaccelerometermeany" "tgravityaccelerometermeanz" "tgravityaccelerometerstdx" "tgravityaccelerometerstdy" "tgravityaccelerometerstdz" "tbodyaccelerometerjerkmeanx" "tbodyaccelerometerjerkmeany" "tbodyaccelerometerjerkmeanz" "tbodyaccelerometerjerkstdx" "tbodyaccelerometerjerkstdy" "tbodyaccelerometerjerkstdz" "tbodygyromeanx" "tbodygyromeany" "tbodygyromeanz" "tbodygyrostdx" "tbodygyrostdy" "tbodygyrostdz" "tbodygyrojerkmeanx" "tbodygyrojerkmeany" "tbodygyrojerkmeanz" "tbodygyrojerkstdx" "tbodygyrojerkstdy" "tbodygyrojerkstdz" "tbodyaccelerometermagnitudemean" "tbodyaccelerometermagnitudestd" "tgravityaccelerometermagnitudemean" "tgravityaccelerometermagnitudestd" "tbodyaccelerometerjerkmagnitudemean" "tbodyaccelerometerjerkmagnitudestd" "tbodygyromagnitudemean" "tbodygyromagnitudestd" "tbodygyrojerkmagnitudemean" "tbodygyrojerkmagnitudestd" "fbodyaccelerometermeanx" "fbodyaccelerometermeany" "fbodyaccelerometermeanz" "fbodyaccelerometerstdx" "fbodyaccelerometerstdy" "fbodyaccelerometerstdz" "fbodyaccelerometermeanfreqx" "fbodyaccelerometermeanfreqy" "fbodyaccelerometermeanfreqz" "fbodyaccelerometerjerkmeanx" "fbodyaccelerometerjerkmeany" "fbodyaccelerometerjerkmeanz" "fbodyaccelerometerjerkstdx" "fbodyaccelerometerjerkstdy" "fbodyaccelerometerjerkstdz" "fbodyaccelerometerjerkmeanfreqx" "fbodyaccelerometerjerkmeanfreqy" "fbodyaccelerometerjerkmeanfreqz" "fbodygyromeanx" "fbodygyromeany" "fbodygyromeanz" "fbodygyrostdx" "fbodygyrostdy" "fbodygyrostdz" "fbodygyromeanfreqx" "fbodygyromeanfreqy" "fbodygyromeanfreqz" "fbodyaccelerometermagnitudemean" "fbodyaccelerometermagnitudestd" "fbodyaccelerometermagnitudemeanfreq" "fbodybodyaccelerometerjerkmagnitudemean" "fbodybodyaccelerometerjerkmagnitudestd" "fbodybodyaccelerometerjerkmagnitudemeanfreq" "fbodybodygyromagnitudemean" "fbodybodygyromagnitudestd" "fbodybodygyromagnitudemeanfreq" "fbodybodygyrojerkmagnitudemean" "fbodybodygyrojerkmagnitudestd" "fbodybodygyrojerkmagnitudemeanfreq" "angletbodyaccelerometermean,gravity" "angletbodyaccelerometerjerkmean,gravitymean" "angletbodygyromean,gravitymean" "angletbodygyrojerkmean,gravitymean" "anglex,gravitymean" "angley,gravitymean" "anglez,gravitymean"
 </ul>
+
+sensor signals (accelerometer and gyroscope), time and freq components, etc...
 
 THE TRANSFORMATIONS (see run_analysis.R for details of each step)
 
