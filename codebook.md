@@ -29,7 +29,7 @@ Other misc files were part of the dataset, but not needed for this script
 <H5>THE DATASETS</H5>
 <ul>
 <li>
-alldata.txt - one large dataframe from the test and training data
+alldata.txt - one large dataframe from all the test and training data untouched
 <ul>
 <li>
 Rows: 10299
@@ -46,14 +46,16 @@ Columns: 88
 </ul>
 dataset contains 180 rows / 88 cols: 6 activities for each of the 30 subjects.
 </ul>
-
+<B>THE VARIABLES</B>
+<ul>
+<li>
 Column 1: the activity information (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
-
+<li>
 Column 2: the number of the particular subject (person wearing the device)
-
+<li>
 Column 3-88: the average calculated value for each variable. These variables include:
 sensor signals (accelerometer and gyroscope), time and freq components, etc...
-
+</ul>
 
 THE TRANSFORMATIONS (see run_analysis.R for details of each step)
 
