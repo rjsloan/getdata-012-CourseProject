@@ -26,8 +26,16 @@ features.txt - List of all features (see description about columns 3-88 below)
 Other misc files were part of the dataset, but not needed for this script
 </ul>
 
-THE DATASET
-
+<H5>THE DATASETS</H5>
+<ul>
+<li>
+alldata.txt - one large dataframe from the test and training data
+<li>
+Rows: 10299
+<li>
+Columns: 563
+<ul>
+</ul>
 Called tidy-data.txt in the repo.The dataset contains 180 rows / 88 cols: 6 activities for each of the 30 subjects.
 
 
