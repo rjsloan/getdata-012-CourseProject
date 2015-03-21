@@ -33,10 +33,10 @@ Substitute all original column names in allData with new colNames
 Assemble a smaller data set based on mean and std column names
 </ul>
 
-<B>Uses descriptive activity names</B>
+<B>Uses descriptive activity names to name activities  in the data set</B>
 <ul>
 <li>
-Replace labels by activity names in 'smallData' data set
+Replace labels by activity names in smaller data set
 </ul>
 
 <B> Created a second, independent tidy data set called tidy-data.txt </B>
