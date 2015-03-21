@@ -63,7 +63,7 @@ Column 3-88: These variables are:
 <li>
 Combining 6 files (test and training files) into one large combined dataset
 <li>
-Reduce this dataset:
+Reduce this dataset to arrive at tidydata.txt:
 <ul>
 <li>
 Extract columns that are only associated with mean and std measurements
