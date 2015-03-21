@@ -47,6 +47,7 @@ create tidy data set with the average of each variable for each activity / subje
 Use write.table to output a txt file of tidy-data.txt
 </ul>
 
-*** See codebook.md for description of dataset, files, variables, etc..
-
-*** The script (run_analysis.R) is commented to provide further details in how the data was processed each step of the way.
+<B>***</B> See codebook.md for description of dataset, files, variables, etc..
+<br>
+<br>
+<B>***</B> The script (run_analysis.R) is commented to provide further details in how the data was processed each step of the way.
