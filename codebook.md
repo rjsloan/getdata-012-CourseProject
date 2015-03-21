@@ -75,6 +75,8 @@ Clean up these column names to make them more descriptive
 Replace numeric activity names with descriptive ones, e.g. WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 <li>
 Take the average of each variable for each activity and each subject.
+<li>
+Output results to tidydata.txt
 </ul>
 </ul>
 
