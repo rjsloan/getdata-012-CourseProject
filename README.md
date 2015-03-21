@@ -2,7 +2,7 @@ README.md
 
 What the analysis file does (run_analysis.R)
 
-Merges the training and the test sets to create one data set.
+<B>Merges the training and the test sets to create one data set</B>
 <ul>
 <li>
 Read the 3 files from the test folder
