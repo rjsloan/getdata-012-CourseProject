@@ -27,11 +27,17 @@ Get column 2 from features.txt and apply minor changes to colNames made for easi
 Substitute all original column names in allData with new colNames
 <ul>
 
-Extracts only the measurements on the mean and standard deviation for each measurement.
-  # Assemble a smaller data set based on mean and std column names
+<B>Extracts only the measurements on the mean and standard deviation for each measurement</B>
+<ul>
+<li>
+Assemble a smaller data set based on mean and std column names
+<ul>
 
-Uses descriptive activity names
-  # Replace labels by activity names in 'smallData' data set
+<B>Uses descriptive activity names</B>
+<ul>
+<li>
+Replace labels by activity names in 'smallData' data set
+<ul>
 
 Created a second, independent tidy data set called tidy-data.txt
   # create tidy data set with the average of each variable for each activity / subject.
