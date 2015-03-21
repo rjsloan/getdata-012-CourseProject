@@ -59,6 +59,7 @@ Column 3-88: These variables are:
 </ul>
 
 <H5>THE UNITS</H5>
+The units of measurement for the variables in tidydata.txt are: acceleration, gyration, frequency, time, magnitude, gravity, angle, etc...
 <H5>THE TRANSFORMATIONS</H5>
 <ul>
 <li>
