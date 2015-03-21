@@ -5,7 +5,7 @@ What the analysis file does (run_analysis.R)
 Merges the training and the test sets to create one data set.
 <ul>
 <li>
-# Read the 3 files from the test folder
+Read the 3 files from the test folder
 <li>
 Combine all 3 files into one data.frame
 <li>
