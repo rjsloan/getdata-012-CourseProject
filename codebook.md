@@ -76,5 +76,5 @@ Take the average of each variable for each activity and each subject.
 </ul>
 </ul>
 
-(see run_analysis.R for more details of the transformation)
+<i> see run_analysis.R for more details of the transformation, variables, data, etc... </i>
 
