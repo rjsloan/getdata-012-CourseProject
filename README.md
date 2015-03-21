@@ -1,6 +1,6 @@
 README.md
 
-What the analysis file does (run_analysis.R)
+What the analysis file does (run_analysis.R) - see comments in actual script for further details
 
 <B>Merges the training and the test sets to create one data set</B>
 <ul>
