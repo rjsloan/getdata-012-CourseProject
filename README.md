@@ -4,9 +4,10 @@ What the analysis file does (run_analysis.R)
 
 Merges the training and the test sets to create one data set.
    # Read the 3 files from the test folder
-   # Bring all 3 files into one data.frame
+   # Combine all 3 files into one data.frame
+  
    # Read the 3 files from the train folder
-   # Bring all 3 files into one data.frame
+   # Combine all 3 files into one data.frame
    # Now combine the testData and trainData into one data.frame
 
 Appropriately labels the data set with descriptive variable names.
