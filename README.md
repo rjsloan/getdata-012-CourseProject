@@ -1,5 +1,4 @@
-# getdata-012-CourseProject
-CourseProject for getdata-012
+README.md
 
 What the analysis file does (run_analysis.R)
 
