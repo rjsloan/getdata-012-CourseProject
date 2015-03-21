@@ -37,7 +37,7 @@ Rows: 10299
 Columns: 563
 </ul>
 <li>
-tidy-data.txt  - smaller dataframe based on the average of each variable for each activity and each subject.
+tidydata.txt  - smaller dataframe based on the average of each variable for each activity and each subject.
 <ul>
 <li>
 Rows: 180
