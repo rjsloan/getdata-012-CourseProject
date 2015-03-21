@@ -40,12 +40,12 @@ Columns: 563
 tidy-data.txt  - smaller dataframe based on the average of each variable for each activity and each subject.
 <ul>
 <li>
-Rows: 180\
+Rows: 180
 <li>
 Columns: 88
 </ul>
 dataset contains 180 rows / 88 cols: 6 activities for each of the 30 subjects.
-
+</ul>
 
 Column 1: the activity information (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
